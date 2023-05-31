@@ -34,9 +34,10 @@ export class TabelaProdutosComponent {
     this.adicionar();
   }
   ngOnInit() {
+    this.produtos = this.servico.listar()
     if (this.produtos.length == 0) {
       this.adicionar()
     }
-    this.produtos = this.servico.listar();
+    ;
   }
 }
