@@ -1,27 +1,12 @@
-# TesteBelt
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Entrevista da Belt - Avaliação Prática
+## Carlos Ney
+***
+### Introdução
+O presente projeto foi desenvolvido em Angular com o auxílio do Angular Material para estilo. Foi utilizado de várias funcionalidades do angular, tais como: ReactiveForms, rotas, Resolve, serviços entre outros.
+O foco principal do projeto é em criar uma lista com produtos a serem adicionados (produtos, neste caso, contém: código, descrição, valor e nome). 
+Para isso foi criado o serviço para armazenar, manipular e fornecer estes dados para a interface através dos componentes.
+Ademais, foi-se utilizado o componente Tabela-Produtos para a exibição da tabela de produtos além da possibilidade de deletar todos ou produtos específicos. Enquanto o componente Forms-Produtos se responsabiliza por editar produtos já existentes ou salvar novos produtos, fazendo as verificações necessárias.
+***
+###Fluxogramas
+Os fluxogramas podem ser acessados na seguinte pasta do Google Drive:
+https://drive.google.com/drive/folders/1ScfIjoTLE_J0NGNvEKU1kXDgoJm_k8eV?usp=sharing
